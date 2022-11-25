@@ -1,21 +1,20 @@
 body {
-background-image:linear-gradient(
-  to bottom,
-  rgba(255, 255, 0, 0.5),
-  rgba(0, 0, 255, 0.5)
-)
+  background-image: linear-gradient(to bottom, 
+  #aa4b6b,
+  #6b6b83,
+  #3b8d99)
 }
 
 .header {
   overflow: hidden;
-  background-color:powderblue;
+  background-color: #FF416C;
   padding: 20px 10px;
   border-radius: 30px;
 }
 
 
 .header a {
-  font-family: 'Oswald',sans-serif;
+  font-family: 'Oswald', sans-serif;
   float: left;
   color: black;
   text-align: center;
@@ -37,7 +36,7 @@ background-image:linear-gradient(
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #c31432;
   color: white;
 }
 
@@ -46,11 +45,12 @@ background-image:linear-gradient(
 }
 
 @media screen and (max-width: 500px) {
-.header a {
+  .header a {
     float: none;
     display: block;
     text-align: left;
   }
+
   .header-right {
     float: none;
   }
@@ -60,130 +60,164 @@ img {
   width: 500px;
   height: 500px;
 }
+
 .form {
-  
   margin: 100px;
   padding: 20px 10px;
 }
+
 #logoEinstein {
   height: 300px;
   width: 300px;
 }
-.a{
-width: 300px;
-height: 0px;
-position: sticky;
-top:80px;
+
+.a {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 50;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
 }
+
 #ad-logo {
-width: 250px;
-height: 200px;
-position: absolute;
-right: 0%;
-position: sticky;
-top:80px;
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  right: 0%;
+  position: sticky;
+  top: 80px;
 }
-.form{
-font-family: 'Oswald',sans-serif;
-font-size: 30px;
+
+.form {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
 }
-#fname{
-  font-size:30px;
+
+#fname {
+  font-size: 30px;
 }
-#email{
-  font-size:30px;
+
+#email {
+  font-size: 30px;
 }
-#ageCheck{
-padding-top: 30px;
-padding-bottom: 30px;
-padding-left:150px ;
-padding-right:150px ;
+
+#ageCheck {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
-::placeholder{
-  font-size:30px;
+
+::placeholder {
+  font-size: 30px;
 }
-.Celular{
-padding-left: 35%;
-width: 62vw;
-border-radius: 3vw;
+
+.Celular {
+  margin-left: 25%;
+  width: 62vw;
+  border-radius: 10px;;
 }
-#firstHeader{
-  margin-left: 34vw;
-  font-family: 'Oswald',sans-serif;
+
+#firstHeader {
+  margin-left: 18vw;
+  margin-right: 2vw;
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 5%;
   font-size: 5vw;
 }
-.umP{
-  font-family: 'Oswald',sans-serif;
+
+.umP {
+  font-family: 'Oswald', sans-serif;
   font-size: 1.65vw;
-  padding-left: 35%;
+  padding-left: 19%;
+  margin-right: 2vw;
 }
-.doisP{
-  font-family: 'Oswald',sans-serif;
+
+.doisP {
+  font-family: 'Oswald', sans-serif;
   font-size: 20px;
   padding-left: 20.5%;
   margin-right: 10%;
 }
-#alter{
-  padding-left: 34.5%;
+
+#alter {
+  margin-left: 30%;
   width: 50vw;
   height: 30vw;
+  border-radius: 10px;
 }
-#secondHeader{
-  margin-left: 34vw;
-  font-family: 'Oswald',sans-serif;
+
+#secondHeader {
+  margin-left: 18vw;
+  margin-right: 2vw;
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 5%;
   font-size: 5vw;
 }
-#einsteinLogo{
+
+#einsteinLogo {
   height: 10vw;
   width: 10vw;
 }
-#einsteinLogo:hover
-{
+
+#einsteinLogo:hover {
   transform: scale(1.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-#metaLogo{
-  height: 10vw ;
+
+#metaLogo {
+  height: 10vw;
   width: 10vw;
 }
-#metaLogo:hover{
+
+#metaLogo:hover {
   transform: scale(1.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.a{
-  font-family: 'Oswald',sans-serif;
+
+.a {
+  font-family: 'Oswald', sans-serif;
 }
-.tabela{
+
+.tabela {
   padding-left: 50%;
-  font-family: 'Roboto',sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 100;
 }
+
 table {
   width: 800px;
   border-collapse: collapse;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
+
 th,
 td {
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.2);
   color: #fff;
 }
+
 th {
   text-align: left;
 }
+
 thead th {
   background-color: #55608f;
 }
+
 tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+
 tbody td {
   position: relative;
 }
+
 tbody td:hover:before {
   content: "";
   position: absolute;
@@ -195,19 +229,21 @@ tbody td:hover:before {
   z-index: -1;
 }
 
-#submit{
-font-family: 'Oswald',sans-serif  ;
-font-size:50px;
-border-radius: 5%;
+#submit {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  border-radius: 5%;
 }
-#news{
+
+#news {
   margin-left: 2vw;
-  font-family: 'Oswald',sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin-bottom: 5%;
   font-size: 5vw;
 }
+
 #tel {
-width: 15vw;
-height: 2vw;
-font-size:24px;
+  width: 15vw;
+  height: 2vw;
+  font-size: 24px;
 }
